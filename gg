@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Мой интернет-магазин</title>
+<style>
+body {
+  font-family: sans-serif;
+}
+.product {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.product img {
+  max-width: 200px;
+}
+</style>
+</head>
+<body>
+
+<h1>Добро пожаловать в мой магазин!</h1>
+
+<div class="product">
+  <img src="https://avatars.mds.yandex.net/i?id=44c9e50716b667b3eb76b0bf70509bb9ed6cfbf3-4561933-images-thumbs&n=13" alt="Дракон с психическими отклонениями">
+  <h2>Дракон с психическими отклонениями</h2>
+  <p>Имеет на борту шизу и СДВГ</p>
+  <p>Цена: 992829283-3732829 руб.</p>
+  <button>Добавить в корзину</button>
+</div>
+
+<div class="product">
+  <img src="https://avatars.mds.yandex.net/i?id=2dde43cb0e5ebba15dbfdf97df030ee38699239c-7761242-images-thumbs&n=13" alt="Тостер">
+  <h2>Тостер</h2>
+  <p>Ест черепах</p>
+  <p>Цена: 66666666666666666666666666666666666666666666666666 руб.</p>
+  <button>Добавить в корзину</button>
+</div>
+
+<!-- Добавить больше товаров -->
+
+<p>Корзина: <span id="cart-count">0</span> товаров</p>
+
+</body>
+</html>
